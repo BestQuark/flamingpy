@@ -235,6 +235,8 @@ html_theme_options = {
             "icon": "fab fa-github",
         },
     ],
+    "google_analytics_tracking_id": "G-825QN675M2",
+
     "prev_next_button_colour": "#f57c00",
     "prev_next_button_hover_colour": "#bb4d00",
     "toc_marker_colour": "#f57c00",
