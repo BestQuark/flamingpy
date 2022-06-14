@@ -371,7 +371,7 @@ def _plot_EGraph_nodes(ax, egraph, color_nodes, label, name, legend):
     for point in egraph.nodes:
         x, z, y = point
         color = _get_node_color(egraph, color_nodes, point)
-        ax.scatter(x, y, z, c=color)
+        ax.scatter(x, y, z, c=color, s=4)
 
         if label:
             value = egraph.nodes[point].get(label) if label != "index" else indices[point]
